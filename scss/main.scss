@@ -1,0 +1,321 @@
+@import './_global';
+@import './_variabel';
+
+
+
+
+
+        
+
+               
+                
+            
+
+
+              
+            
+        
+
+        // END BOX-4
+        // START BOX-5
+        
+
+
+            
+
+           
+
+
+
+
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-left.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+.btn{   
+    img {
+        width: 1.2em;
+    }
+}
+.responsif-img {
+    background-color: #fff;
+    background-image: url(../assets/bg-hero-responsif.png);
+    background-size: contain;
+    height: 420px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.costum-slider {
+    margin-top: 5em !important;
+}
+.hero-4 {
+    width: 80%;
+    display: none;
+}
+.when-responsif-hero-4 {
+    display: block;
+    width: 80%;
+}
+.hero-5 {
+    display: none;
+    width: 100%;
+}
+.when-responsif-hero-5 {
+    display: block;
+    width: 80%;
+}
+.section-5-img {
+    width: 100%;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-left.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size:  30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+    .btn{
+        img {
+        width: 1.3em;
+    }
+    }
+    // img when responsif
+    .responsif-img {
+        background-color: #fff;
+        background-image: url(../assets/bg-hero-responsif.png);
+        background-size: contain;
+        height: 500px;
+        background-position: top right;
+        background-repeat: no-repeat;
+    }
+    .costum-slider {
+        margin-top: 5em !important;
+    }
+    .hero-4 {
+        width: 80%;
+        display: none;
+    }
+    .when-responsif-hero-4 {
+        display: block;
+        width: 80%;
+    }
+    .hero-5 {
+        display: none;
+        width: 100%;
+    }
+    .when-responsif-hero-5 {
+        display: block;
+        width: 80%;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-left.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+    .btn{
+        img {
+        width: 1.6em;
+    }
+    }
+    // img when responsif
+    .responsif-img {
+        background-color: #fff;
+        background-image: url(../assets/bg-hero-ipad.png);
+        background-size: contain;
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .costum-slider {
+        margin-top: 6em !important;
+    }
+    .hero-4 {
+        width: 80%;
+        display: none;
+    }
+    .when-responsif-hero-4 {
+        display: block;
+        width: 80%;
+    }
+    .hero-5 {
+        display: none;
+        width: 100%;
+    }
+    .when-responsif-hero-5 {
+        display: block;
+        width: 80%;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-hero.png) , url(../assets/bg-left.png);
+    background-position: top right , top left;
+    background-repeat: no-repeat;
+    background-size: 40vmax , 30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+    .btn{
+        img {
+        width: 2em;
+    }
+    }
+    // img when responsif
+    .responsif-img {
+        display: none;
+    }
+    .costum-slider {
+        margin-top: 15em !important;
+    }
+    .hero-4 {
+        width: 100%;
+        display: block;
+    }
+    .when-responsif-hero-4 {
+        display: none;
+    }
+    .hero-5 {
+        display: block;
+        width: 100%;
+    }
+    .when-responsif-hero-5 {
+        display: none;
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-hero.png) , url(../assets/bg-left.png);
+    background-position: top right , top left;
+    background-repeat: no-repeat;
+    background-size: 40vmax , 30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+    .btn{
+        img {
+        width: 2em;
+    }
+    }
+    // img when responsif
+    .responsif-img {
+        display: none;
+    }
+    .costum-slider {
+        margin-top: 10em !important;
+    }
+    .hero-4 {
+        width: 100%;
+        display: block;
+    }
+    .when-responsif-hero-4 {
+        display: none;
+    }
+    .hero-5 {
+        display: block;
+        width: 100%;
+    }
+    .when-responsif-hero-5 {
+        display: none;
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg-hero.png) , url(../assets/bg-left.png);
+    background-position: top right , top left;
+    background-repeat: no-repeat;
+    background-size: 40vmax , 30vmax;
+}
+.heading-stroke-1 {
+    span {
+        background-image: url(../assets/stroke.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 16vmax;
+    }
+}
+    .btn{
+        img {
+        width: 2em;
+    }
+    }
+    // img when responsif
+    .responsif-img {
+        display: none;
+    }
+    .costum-slider {
+        margin-top: 15em !important;
+    }
+    .hero-4 {
+        width: 100%;
+        display: block;
+    }
+    .when-responsif-hero-4 {
+        display: none;
+    }
+    .hero-5 {
+        display: block;
+        width: 100%;
+    }
+    .when-responsif-hero-5 {
+        display: none;
+    }
+}
